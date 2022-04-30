@@ -40,10 +40,10 @@ countdown = () => {
 
         // console.log(progressPercentText);
 
-        if (progressPercent >= 80) {
-            document.querySelector(progressSelector).style.background = "orange";
-        } else if (progressPercent >= 90) {
+        if (progressPercent >= 90) {
             document.querySelector(progressSelector).style.background = "red";
+        } else if (progressPercent >= 80) {
+            document.querySelector(progressSelector).style.background = "orange";
         }
     }
 }
